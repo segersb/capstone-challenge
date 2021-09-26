@@ -1,0 +1,31 @@
+{
+  "name": "@segerb/logan",
+  "version": "1.0.0",
+  "description": "Plutus development helper",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segersb/capstone-challenge.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/segersb/capstone-challenge/issues"
+  },
+  "homepage": "https://github.com/segersb/capstone-challenge#readme",
+  "type": "module",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "download": "^8.0.0",
+    "fs": "^0.0.1-security",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "table": "^6.7.1",
+    "tar": "^6.1.11",
+    "tar-fs": "^2.1.1",
+    "tar-stream": "^2.2.0"
+  },
+  "bin": {
+    "login": "./index.js"
+  }
+}
